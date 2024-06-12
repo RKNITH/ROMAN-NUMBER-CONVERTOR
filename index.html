@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman Numeral Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Roman Numeral Converter</h1>
+    </header>
+    <main>
+        <div class="converter">
+            <input type="number" id="decimalInput" placeholder="Enter Decimal Number">
+            <button onclick="convertToRoman()">Convert</button>
+            <input type="text" id="romanOutput" readonly placeholder="Roman Numeral">
+        </div>
+        <div class="history">
+            <h2>History and Theory of Roman Numerals</h2>
+            <p>Roman numerals originated in ancient Rome and were used throughout the Roman Empire in various contexts,
+                including numbering years, counting money, and indicating the order of individuals in a sequence.</p>
+            <p>The basic symbols in the Roman numeral system are:</p>
+            <ul>
+                <li>I - 1</li>
+                <li>V - 5</li>
+                <li>X - 10</li>
+                <li>L - 50</li>
+                <li>C - 100</li>
+                <li>D - 500</li>
+                <li>M - 1000</li>
+            </ul>
+            <p>Roman numerals follow certain rules for representing numbers:</p>
+            <ul>
+                <li>Repeated symbols represent addition. For example, II represents 1 + 1 = 2.</li>
+                <li>When a smaller numeral precedes a larger one, it represents subtraction. For example, IV represents
+                    5 - 1 = 4.</li>
+                <li>When a smaller numeral follows a larger one, it represents addition. For example, VI represents 5 +
+                    1 = 6.</li>
+                <li>There are no Roman numerals for zero or negative numbers.</li>
+            </ul>
+            <p>Despite the decline of the Roman Empire, Roman numerals are still used today in various contexts, such as
+                indicating the year on building inscriptions, numbering chapters in books, and denoting the order of
+                sporting events.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Roman Numeral Converter</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
